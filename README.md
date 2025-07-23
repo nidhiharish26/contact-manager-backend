@@ -3,7 +3,7 @@
 Welcome to your Contact Manager project – a backend server built with Node.js and Express to manage contacts, user authentication, and secure data operations in a full-stack contact management system.
 
 # How Can I Edit This Code?
-There are several ways to edit and run your backend application:
+
 Use Your Preferred IDE (Recommended)
 If you want to work locally using VS Code or any IDE:
 
