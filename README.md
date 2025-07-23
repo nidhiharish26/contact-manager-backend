@@ -4,8 +4,7 @@ Welcome to your Contact Manager project – a backend server built with Node.js 
 
 # How Can I Edit This Code?
 There are several ways to edit and run your backend application:
-
-# Use Your Preferred IDE (Recommended)
+Use Your Preferred IDE (Recommended)
 If you want to work locally using VS Code or any IDE:
 
 Requirements:
