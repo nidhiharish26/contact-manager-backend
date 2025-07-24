@@ -1,70 +1,85 @@
-# contact-manager_backend
+# Contact Manager Backend
 
-Welcome to your Contact Manager project – a backend server built with Node.js and Express to manage contacts, user authentication, and secure data operations in a full-stack contact management system.
+This is the backend API for the Contact Manager application built using Node.js and Express. It handles user authentication and contact CRUD operations.
 
-# How Can I Edit This Code?
+## Features
 
-Use Your Preferred IDE (Recommended)
-If you want to work locally using VS Code or any IDE:
+- User registration and login
+- JWT-based authentication
+- Create, read, update, delete contacts
+- Protected routes
 
-Requirements:
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB (local or cloud - e.g., MongoDB Atlas)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nidhiharish26/contact-manager.git
+   
+
+2. Navigate to the backend directory:
+
+   ```bash
+   cd contact-manager/backend
+   
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   
+
+4. Create a .env file in the root of the backend folder and add the following:
+
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   
+
+The server will start at http://localhost:5000.
+
+## API Endpoints
+
+### Auth Routes
+
+- POST /api/users/register - Register a new user
+- POST /api/users/login - Login and receive JWT token
+
+### Contact Routes (Protected)
+
+- GET /api/contacts - Get all user contacts
+- POST /api/contacts - Create a new contact
+- PUT /api/contacts/:id - Update a contact
+- DELETE /api/contacts/:id - Delete a contact
+
+## Tech Stack
 
 - Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcryptjs
+- dotenv
+- cors
 
-- npm (Node Package Manager)
+## Notes
 
-- MongoDB (local or Atlas)
+- Add your MongoDB connection string and JWT secret in the .env file
+- Do not commit your .env file
+- Use Postman or frontend to test endpoints
 
-Step 1: Clone the repository from GitHub
-
-Step 2: Navigate to the backend folder
-
-Step 3: Install the required packages using npm
-
-Step 4: Create a .env file with MongoDB URI and JWT secret key
-
-Step 5: Start the backend server
-
-The server will run on localhost (default port: 5000)
-
-# Edit Files in GitHub
-
-- Go to the GitHub repository
-
-- Click on the file you want to edit
-
-- Use the edit (pencil) icon
-
-- Make your changes and commit them
-
-# What Technologies Are Used?
-This backend is built with:
-
-- Node.js and Express.js for building the server
-
-- MongoDB for storing contacts and user data
-
-- Mongoose for interacting with MongoDB
-
-- JSON Web Tokens (JWT) for user authentication
-
-- bcrypt for password hashing
-
-- dotenv for environment variables
-
-- CORS and middleware for secure API requests
-
-# How Can I Deploy This Project?
-You can:
-
-Host the backend server using:
-
-- Render
-
-- Railway
-
-- Cyclic
-
-- PythonAnywhere (via Node runtime)
-
-Use MongoDB Atlas to host your cloud database and store your contact and user data securely online.
