@@ -6,7 +6,7 @@ This is the backend API for the Contact Manager application built using Node.js 
 
 - User registration and login
 - JWT-based authentication
-- Create, delete, search, sort contacts
+- Create, update, delete, retrieve contacts
 - Protected routes
 
 ## Getting Started
@@ -14,7 +14,7 @@ This is the backend API for the Contact Manager application built using Node.js 
 ### Prerequisites
 
 - Node.js and npm
-- MongoDB (local or cloud - e.g., MongoDB Atlas)
+- MongoDB (local or cloud - e.g., MongoDB Atlas or MongoDB Compass)
 
 ### Installation
 
