@@ -1,12 +1,12 @@
 # Contact Manager Backend
 
-This is the backend API for the Contact Manager application built using Node.js and Express. It handles user authentication and contact CRUD operations.
+This is the backend API for the Contact Manager application built using Node.js and Express. It handles user authentication and contact Create, Sort and Search operations.
 
 ## Features
 
 - User registration and login
 - JWT-based authentication
-- Create, read, update, delete contacts
+- Create, search and sort contacts
 - Protected routes
 
 ## Getting Started
