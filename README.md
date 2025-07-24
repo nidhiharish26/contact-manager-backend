@@ -81,5 +81,5 @@ The server will start at http://localhost:5000.
 
 - Add your MongoDB connection string and JWT secret in the .env file
 - Do not commit your .env file
-- Use Postman or frontend to test endpoints
+- Use Postman, thunder client or frontend to test endpoints
 
