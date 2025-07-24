@@ -6,7 +6,7 @@ This is the backend API for the Contact Manager application built using Node.js 
 
 - User registration and login
 - JWT-based authentication
-- Create, delete, search, sort and pagination of contacts
+- Create, delete, search, sort contacts
 - Protected routes
 
 ## Getting Started
